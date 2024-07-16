@@ -1,0 +1,55 @@
+/* Income.css */
+.income .modal-body .form-control[type="date"] {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .income .modal-body .form-control[type="date"]:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  }
+  
+  .income .modal-body .form-control[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(50%);
+  }
+  .card3{
+    border-radius: 10px;
+    background-color: black;
+}
+
+
+.icon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 0.7s;
+    cursor: pointer;
+  }
+  
+  .icon-item {
+    flex: 1 0 21%; /* 5 items per row */
+    margin: 10px;
+    text-align: center;
+    color:rgb(69, 175, 201);
+    font-size: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .icon-item p {
+    margin-top: 5px;
+    font-size: 17px;
+  }
+  .icon-item:hover{
+    color:white;
+    transform:scale(1.05);
+  }
+  .card-body3 h5{
+    color:white;
+    font-size: 22px;
+  }
+  

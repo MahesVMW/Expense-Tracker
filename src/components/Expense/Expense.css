@@ -1,0 +1,66 @@
+.card2{
+    border-radius: 10px;
+    background-color: black;
+}
+
+
+.icon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 0.7s;
+    cursor: pointer;
+  }
+  
+  .icon-item {
+    flex: 1 0 21%; /* 5 items per row */
+    margin: 10px;
+    text-align: center;
+    color:rgb(69, 175, 201);
+    font-size: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .icon-item p {
+    margin-top: 5px;
+    font-size: 17px;
+  }
+  .icon-item:hover{
+    color:white;
+    transform:scale(1.05);
+  }
+  .card-body h5{
+    color:white;
+    font-size: 22px;
+    
+  }
+  .modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out;
+    transform: translate(0, 0);
+    color:white;
+    border:5px #fff;
+  }
+  
+  .modal-content{
+    background-color: rgb(69, 175, 201);
+    color:black;
+    border:5px #fff;
+  }
+  .animate-fade-in {
+    animation: fadeIn 0.5s;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .modal-backdrop {
+    display: none !important; /* Remove the backdrop */
+  }
+  

@@ -1,0 +1,52 @@
+.chart-page {
+    text-align: center;
+    min-height: 100vh;
+     color: white;
+}
+
+.chart-container {
+    max-width: 400px;
+    margin: 0 auto;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bars {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress-entry {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 10px; /* Make the progress bar smaller */
+}
+
+.no-entries-message {
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .chart-progress-row {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .chart-container, .progress-bars {
+        width: 48%; /* Adjust width to fit side by side */
+    }
+}
+
+
+h2 {
+    color: rgb(244, 239, 239);
+    text-align: center;
+}

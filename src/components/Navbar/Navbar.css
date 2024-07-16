@@ -1,0 +1,122 @@
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    color: skyblue; /* Add skyblue color for the brand */
+    font-size: 40px; /* Adjust the font size if needed */
+}
+
+.navbar-toggler {
+    border: none;
+    background: white;
+}
+
+.navbar-toggler.white-toggler {
+    border: none;
+    background: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%288, 8, 8, 0.7%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler-icon.white-background {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%25255, 255, 255, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-collapse {
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link {
+    text-decoration: none; /* Remove underline */
+    color: rgb(91, 202, 235); /* Set link color */
+    padding: 0.5rem 1rem; /* Add padding around links */
+    display: inline-block; /* Ensure proper inline block display */
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: none; /* Remove underline on hover */
+    color: white; /* Change color on hover */
+}
+
+.navbar-extra-text {
+    display: none;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem; /* Adjust margin as needed */
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 250px;
+        background-color: black;
+        transform: translateX(-100%);
+        z-index: 1045;
+        padding: 1rem;
+    }
+
+    .navbar-collapse.show {
+        transform: translateX(0);
+    }
+
+    .close-btn {
+        background: transparent;
+        border: none;
+        color: #fff;
+        font-size: 1.5rem;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        color: white;
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .nav-link:hover {
+        color: #ddd;
+    }
+
+    .navbar-extra-text {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-collapse {
+        display: flex !important;
+        justify-content: flex-end;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .nav-link {
+        color: #fff;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .nav-link:hover {
+        color: #ddd;
+    }
+
+    .close-btn {
+        display: none;
+    }
+}
