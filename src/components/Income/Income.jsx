@@ -1,4 +1,4 @@
-// src/components/Income/Income.js
+
 import React, { useState, useContext } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Income.css';

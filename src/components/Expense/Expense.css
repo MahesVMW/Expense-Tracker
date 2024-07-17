@@ -13,7 +13,7 @@
   }
   
   .icon-item {
-    flex: 1 0 21%; /* 5 items per row */
+    flex: 1 0 21%; 
     margin: 10px;
     text-align: center;
     color:rgb(69, 175, 201);
@@ -61,6 +61,6 @@
   }
   
   .modal-backdrop {
-    display: none !important; /* Remove the backdrop */
+    display: none !important; 
   }
   

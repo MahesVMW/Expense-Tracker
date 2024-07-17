@@ -1,4 +1,4 @@
-// src/components/Expense/Expense.js
+
 import React, { useState, useContext } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Expense.css';

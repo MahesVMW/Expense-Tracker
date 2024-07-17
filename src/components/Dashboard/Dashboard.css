@@ -36,7 +36,7 @@
 }
 
 .icon-container {
-    margin-bottom: 10px; /* Add some space below the icon */
+    margin-bottom: 10px; 
 }
 
 .icon-container i,p {
@@ -55,11 +55,11 @@
     font-size: 20px;
     margin: 0 10px;
     cursor: pointer;
-    color: #007bff; /* Edit icon color */
+    color: #007bff; 
 }
 
 .delete-icon {
-    color: #dc3545; /* Delete icon color */
+    color: #dc3545;
 }
 
 .edit-icon:hover,
@@ -100,9 +100,9 @@
 }
 
 .notification.update {
-    background-color: #28a745; /* Green color for update notifications */
+    background-color: #28a745; 
 }
 
 .notification.delete {
-    background-color: #e43a48; /* Red color for delete notifications */
+    background-color: #e43a48; 
 }

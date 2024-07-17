@@ -25,7 +25,7 @@
 }
 
 .progress {
-    height: 10px; /* Make the progress bar smaller */
+    height: 10px; 
 }
 
 .no-entries-message {
@@ -41,7 +41,7 @@
     }
 
     .chart-container, .progress-bars {
-        width: 48%; /* Adjust width to fit side by side */
+        width: 48%;
     }
 }
 

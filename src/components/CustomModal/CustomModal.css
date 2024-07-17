@@ -1,4 +1,4 @@
-/* src/components/CustomModal/CustomModal.css */
+
 .custom-modal-backdrop {
     position: fixed;
     top: 0;
@@ -8,7 +8,7 @@
     background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Align items to the top */
+    align-items: flex-start;
     padding-top: 50px; 
     padding:10px;
     z-index: 1050;
